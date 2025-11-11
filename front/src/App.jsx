@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./views/Home/Home";
 import MyAppointments from "./views/MyAppointments/MyAppointments";
-import Register from "./views/Register/register";
+import Register from "./views/Register/Register";
 import Login from "./views/Login/Login";
 import Navbar from "./components/Navbar/Navbar";
 import NewAppointment from "./views/NewAppointment/NewAppointment";

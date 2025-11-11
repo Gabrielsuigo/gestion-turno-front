@@ -1,0 +1,8 @@
+{
+  "name": "gestion-turno-front",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd front && npm install && npm run build"
+  }
+}

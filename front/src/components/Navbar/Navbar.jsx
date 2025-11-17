@@ -4,6 +4,7 @@ import Swal from "sweetalert2";
 import styles from "./Navbar.module.css";
 import { logoutUser } from "../../redux/reducer";
 
+
 const Navbar = () => {
   const userData = useSelector((state) => state.userActive);
   const dispatch = useDispatch();
@@ -44,7 +45,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.logoSection}>
         <Link to="/home" className={styles.logoLink}>
-          <img src="./vite.svg" alt="CityBank logo" className={styles.logo} />
+          <img src="./cb imagen.jpg" alt="CityBank logo" className={styles.logo} />
           <span className={styles.brand}>CityBank</span>
         </Link>
       </div>
